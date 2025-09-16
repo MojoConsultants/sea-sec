@@ -1,7 +1,3 @@
-Great — here’s the updated **README.md** with a new **## CI/CD Examples** section that bundles in the GitHub Actions, Jenkins, and CircleCI snippets using the renamed **`seaseq`** binary.
-
----
-
 # SEA-SEQ — Shift-Left Endpoint Assurance & Security
 
 **SEA-SEQ** is a fast, language-agnostic **API testing and security validation runner**.
