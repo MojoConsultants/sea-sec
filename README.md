@@ -299,6 +299,4 @@ PRs welcome! Before submitting:
 
 ---
 
-✅ Your README is now updated with a **CI/CD Examples** section containing **GitHub Actions, Jenkins, and CircleCI** snippets that all use the correct `seaseq` binary.
-
 Would you like me to also create the actual **`.github/workflows/seaseq.yml`** file in your repo with this config, so it’s live-ready?
