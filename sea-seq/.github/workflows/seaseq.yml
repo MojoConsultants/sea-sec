@@ -1,0 +1,33 @@
+name: SEA-SEQ
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      SPEC: tests/examples/jsonplaceholder/suite.yaml
+      OPENAPI: tests/examples/jsonplaceholder/openapi.json
+      ENVFILE: tests/examples/jsonplaceholder/env.json
+      OUTDIR: reports
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+      - run: go build -o seaseq ./cmd/sea-qa
+      - run: |
+          ./seaseq \
+            --spec "$SPEC" \
+            --openapi "$OPENAPI" \
+            --env "$ENVFILE" \
+            --out "$OUTDIR" \
+            --parallel 4 -v
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: seaseq-reports
+          path: reports/

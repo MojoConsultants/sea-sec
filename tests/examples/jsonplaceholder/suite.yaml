@@ -1,0 +1,15 @@
+name: JSONPlaceholder — SEA-SEQ Demo
+openapi: tests/examples/jsonplaceholder/openapi.json
+
+scenarios:
+  - name: List posts
+    steps:
+      - request:
+          method: GET
+          url: ${BASE_URL}/posts?userId=1
+          headers: { Accept: application/json }
+        expect:
+          - type: status
+            value: 200
+          - type: contract
+            value: true
