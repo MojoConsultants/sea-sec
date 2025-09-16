@@ -299,4 +299,4 @@ PRs welcome! Before submitting:
 
 ---
 
-Would you like me to also create the actual **`.github/workflows/seaseq.yml`** file in your repo with this config, so it’s live-ready?
+
