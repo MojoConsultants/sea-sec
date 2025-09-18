@@ -1,0 +1,40 @@
+[
+    {
+        "Page URL": "https://mlbam-park.b12sites.com/index",
+        "Title": "Home - MLBAM Park",
+        "Meta Description": "Welcome to MLBAM Park, your resident services hub. Pay rent, shop, and schedule tours all in one place.",
+        "Meta Keywords": "rent, residents, products, tours",
+        "Robots": "",
+        "Hosting IP": "203.0.113.45"
+    },
+    {
+        "Page URL": "https://mlbam-park.b12sites.com/about",
+        "Title": "About Us - MLBAM Park",
+        "Meta Description": "Learn about MLBAM Park and the services we provide to our residents.",
+        "Meta Keywords": "",
+        "Robots": "index",
+        "Hosting IP": "follow",
+        "null": [
+            "203.0.113.45"
+        ]
+    },
+    {
+        "Page URL": "https://mlbam-park.b12sites.com/products",
+        "Title": "Products - MLBAM Park",
+        "Meta Description": "Browse and purchase products available from the residential store.",
+        "Meta Keywords": "",
+        "Robots": "index",
+        "Hosting IP": "follow",
+        "null": [
+            "203.0.113.45"
+        ]
+    },
+    {
+        "Page URL": "https://mlbam-park.b12sites.com/contact",
+        "Title": "Contact Us - MLBAM Park",
+        "Meta Description": "Get in touch with our team for resident support or inquiries.",
+        "Meta Keywords": "contact, support",
+        "Robots": "",
+        "Hosting IP": "203.0.113.45"
+    }
+]
