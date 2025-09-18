@@ -283,6 +283,20 @@ workflows:
 
 ---
 
+# Site Metadata Crawler
+
+This project includes a Python crawler that collects metadata (title, description, keywords, robots) from all pages of a given website, along with the hosting IP address. Results are saved into a CSV file for analysis or Six Sigma STTS tracking.
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+gh repo clone MojoConsultants/sea-sec
+cd sea-sec
+
+
 ## Contributing
 
 PRs welcome! Before submitting:
