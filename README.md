@@ -288,30 +288,10 @@ This project includes a Python crawler that collects metadata (title, descriptio
 
 ---
 
-## 🚀 Setup Instructions
 
-### 1. Clone the Repository
-```bash
-gh repo clone MojoConsultants/sea-sec
-cd sea-sec
+# Site Metadata Crawler
 
-
----
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
-```bash
-gh repo clone MojoConsultants/sea-sec
-cd sea-sec
----
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
-```bash
-gh repo clone MojoConsultants/sea-sec
-cd sea-sec
+[![codecov](https://codecov.io/gh/MojoConsultants/sea-sec/branch/main/graph/badge.svg)](https://codecov.io/gh/MojoConsultants/sea-sec)
 
 
 ## 🚀 Setup Instructions
@@ -320,16 +300,6 @@ cd sea-sec
 ```bash
 gh repo clone MojoConsultants/sea-sec
 cd sea-sec
-
----
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
-```bash
-gh repo clone MojoConsultants/sea-sec
-cd sea-sec
-
 
 ## Contributing
 
