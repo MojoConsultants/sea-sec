@@ -16,6 +16,9 @@ It combines **OpenAPI contract validation**, **functional tests**, **coverage tr
 * 📦 **CI-ready**: Emit JUnit, JSON, HTML, and coverage artifacts for Jenkins, CircleCI, GitHub Actions.
 
 ---
+## Architecture Diagram
+
+sea-sec.PNG
 
 ## Quickstart
 
