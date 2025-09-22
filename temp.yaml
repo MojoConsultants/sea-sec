@@ -1,0 +1,25 @@
+# configs/prioritization.yaml
+rules:
+  - name: Critical Blockers
+    match:
+      severity: ["critical"]
+    action: block_deployment
+    label: "🚨 Critical – Must Fix Before Release"
+
+  - name: High Risk
+    match:
+      severity: ["high"]
+    action: block_deployment
+    label: "⚠️ High – Resolve Before Deploy"
+
+  - name: Medium Risk
+    match:
+      severity: ["medium"]
+    action: track_in_backlog
+    label: "📝 Medium – Monitor & Fix Soon"
+
+  - name: Low Risk
+    match:
+      severity: ["low"]
+    action: log_only
+    label: "ℹ️ Low – Document for Awareness"
