@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>SEA-SEC Report</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 2rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    tr:nth-child(even){background-color:#f9f9f9;}
+    th { background: #222; color: #fff; }
+    .risk { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>SEA-SEC Website Security Report</h1>
+  <p>Rows are sorted by risk (highest first). Risk is a demo score from 0 (low) to 1 (high).</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Risk</th><th>Page URL</th><th>HTTPS</th><th>#Links</th><th>#Forms</th><th>Has Login?</th><th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in rows %}
+      <tr>
+        <td class="risk">{{ '%.2f' % r['risk'] }}</td>
+        <td>{{ r['page_url'] }}</td>
+        <td>{{ r['https'] }}</td>
+        <td>{{ r['num_links'] }}</td>
+        <td>{{ r['num_forms'] }}</td>
+        <td>{{ r['has_login_form'] }}</td>
+        <td>{{ r.get('note','') }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>
