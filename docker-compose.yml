@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  sea-sec:
+    build: .
+    container_name: sea-sec
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+
