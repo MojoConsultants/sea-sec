@@ -1,0 +1,15 @@
+# Requirements for SEA-SEQ
+fastapi
+uvicorn[standard]
+gunicorn         # Optional for prod use
+# other dependencies...
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+pytest>=7.0.0
+pydantic-settings==2.4.0
+pytest-cov>=4.0.0
+pytest-mock>=3.7.0
+lxml>=4.9.0
+html5lib>=1.1
+# End of requirements.txt
+# Requirements for site_metadata_crawler
